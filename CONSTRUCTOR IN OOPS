@@ -1,3 +1,12 @@
+class arithmatic_op:
+    pi=3.14
+    def __init__(self,v,n):
+        self.v=v
+        self.n=n
+    def sum(self):
+        return self.v+self.n+self.pi
+    def mul(self):
+        return self.v*self.n*self.pi
 class employee_manage:
     def __init__(self,emp_id):
         self.emp_id=emp_id
