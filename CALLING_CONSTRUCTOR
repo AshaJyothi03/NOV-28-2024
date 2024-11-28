@@ -1,0 +1,9 @@
+from OOPS_CONCEPTS.constructor_class import arithmatic_op
+from OOPS_CONCEPTS.emp_manage_three_var import employee_manage
+obj1=employee_manage(1122)
+obj1.emp_details()
+obj1.emp_deduction()
+obj=arithmatic_op(12,21)
+res=obj.sum()
+res1=obj.mul()
+print(res,"\n",res1)
